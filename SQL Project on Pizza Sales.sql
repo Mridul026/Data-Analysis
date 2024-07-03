@@ -18,9 +18,11 @@ primary key(orders_details_id)
 select * from orders_details;
 
 
+
 -- Retrieve the total number of orders placed.
 
 select count(order_id) as Total_orders from orders;
+
 
 
 -- Calculate the total revenue generated from pizza sales.
